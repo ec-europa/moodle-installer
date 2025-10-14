@@ -47,7 +47,7 @@ class MoodleInstaller extends LibraryInstaller {
         $pluginType = str_replace('moodle-', '', $package->getType());
 
         if (!in_array($pluginType, array_keys($this->locations))) {
-            return 'vendor/';
+            return parent::getInstallPath($package);
         }
 
         return 'web/' . $this->templatePath($this->locations[$pluginType], $availableVars);
