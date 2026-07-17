@@ -137,6 +137,20 @@ class MoodleInstaller extends LibraryInstaller {
         'webservice'         => 'webservice/{$name}/',
         'workshopallocation' => 'mod/workshop/allocation/{$name}/',
         'workshopeval'       => 'mod/workshop/eval/{$name}/',
-        'workshopform'       => 'mod/workshop/form/{$name}/'
+        'workshopform'       => 'mod/workshop/form/{$name}/',
+        'customfield'        => 'customfield/field/{$name}/',
+        'qbank'              => 'question/bank/{$name}/',
+        'dataformat'         => 'dataformat/{$name}/',
+        'media'              => 'media/player/{$name}/',
+        'contenttype'        => 'contentbank/contenttype/{$name}/',
+        'h5plib'             => 'h5p/h5plib/{$name}/',
+        'paygw'              => 'payment/gateway/{$name}/',
+        'communication'      => 'communication/provider/{$name}/',
+        'smsgateway'         => 'sms/gateway/{$name}/',
+        'aiprovider'         => 'ai/provider/{$name}/',
+        'aiplacement'        => 'ai/placement/{$name}/',
+        'antivirus'          => 'lib/antivirus/{$name}/',
+        'fileconverter'      => 'files/converter/{$name}/',
+        'mlbackend'          => 'lib/mlbackend/{$name}/',
     );
 }
